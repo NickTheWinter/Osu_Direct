@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Osu_Direct</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.Wpf.TaskbarNotification.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.818.41" />
+    <PackageReference Include="NHotkey.Wpf" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>

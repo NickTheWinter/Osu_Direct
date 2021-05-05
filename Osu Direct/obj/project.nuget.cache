@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "mJGGOz1tPOid7uu1h1mMv3TNrlxZ7rYdEKkjiuO7Og4YhmYhYn1MyqsQMCBHnITzeKa70dUyqNPV3inHJ2e1vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Osu Direct\\Osu Direct\\Osu Direct.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.web.webview2\\1.0.818.41\\microsoft.web.webview2.1.0.818.41.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nhotkey.wpf\\2.1.0\\nhotkey.wpf.2.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

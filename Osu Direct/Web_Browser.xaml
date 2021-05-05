@@ -1,0 +1,20 @@
+﻿<Window x:Class="Osu_Direct.Web_Browser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" 
+        xmlns:local="clr-namespace:Osu_Direct"
+        mc:Ignorable="d"
+        Title="Osu Direct" Height="950" Width="1920" KeyDown="Web_Browser_KeyDown" WindowState="Maximized" SizeToContent="Manual" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Loaded="Window_Loaded" Closed="Window_Closed"  >
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top">
+            <Button x:Name="Back" DockPanel.Dock="Left" Click="Back_Click" Content="Back" Width="65" FontSize="16" FontWeight="Bold"/>
+            <Button x:Name="Forward" DockPanel.Dock="Left" Click="Forward_Click" Content="Forward" Width="74" RenderTransformOrigin="0.957,0.57" FontSize="16" FontWeight="Bold"/>
+            <Button x:Name="Upload_Beatmaps" DockPanel.Dock="Left" Click="Upload_Beatmaps_Click" Content="Upload Beatmaps" FontSize="16" FontWeight="Bold"/>
+            <TextBox x:Name = "addressBar" Height="40" IsEnabled="True" Text="https://osu.ppy.sh/beatmapsets" IsReadOnly="True" FontSize="24"/>
+
+        </DockPanel>
+        <wv2:WebView2 Name="webView" Source="https://osu.ppy.sh/beatmapsets" ZoomFactor="1" SourceChanged="webView_SourceChanged" Opacity="0.8"  />
+    </DockPanel>
+</Window>

@@ -1,0 +1,171 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Hardcodet.Wpf.TaskbarNotification.Core/2.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NotifyIconWpf.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Web.WebView2/1.0.818.41": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.818.41",
+            "fileVersion": "1.0.818.41"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.818.41",
+            "fileVersion": "1.0.818.41"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.818.41",
+            "fileVersion": "1.0.818.41"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.818.41"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.818.41"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.818.41"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "NHotkey/2.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NHotkey.Wpf/2.1.0": {
+        "dependencies": {
+          "NHotkey": "2.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.Wpf.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hardcodet.Wpf.TaskbarNotification.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vYs11ue1gOaEhCLBqU7zQOvo7xwQTGEbWJZ1VO8Gy7bGNzyqVVjF713b8zy/Vo/Snw9Y18KUI0pyoUv+P8xDIg==",
+      "path": "hardcodet.wpf.taskbarnotification.core/2.0.0",
+      "hashPath": "hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.818.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fOEZCzNHDtWuNGgOWaA7lD0UkiFXJGhWXEBwqsw9sMrx4QXl8SqNX7qVNYdJrbGvpf3B67CGO3WuUI2z3Yai5w==",
+      "path": "microsoft.web.webview2/1.0.818.41",
+      "hashPath": "microsoft.web.webview2.1.0.818.41.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NHotkey/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zr6ngoY5OujU8zhp8DGZF4I10HSrHjOuiXw9LdXaplXdOJPxwbYPvIDacGtsTCnLLSZDTF+lwjDpdr+bnntRdw==",
+      "path": "nhotkey/2.1.0",
+      "hashPath": "nhotkey.2.1.0.nupkg.sha512"
+    },
+    "NHotkey.Wpf/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rDanPmRtx8c8/eKSqxhCXf6N9JanEAdIaW+FA9fRKda7TBVRNXXXPyU05s5O614KBhvm9a0YGjS9wfhqNPwi6A==",
+      "path": "nhotkey.wpf/2.1.0",
+      "hashPath": "nhotkey.wpf.2.1.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    }
+  }
+}
