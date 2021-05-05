@@ -313,11 +313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Osu Direct\\Osu Direct\\Osu Direct.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
       "projectName": "Osu Direct",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Osu Direct\\Osu Direct\\Osu Direct.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Osu Direct\\Osu Direct\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Osu_Direct\\Osu Direct\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

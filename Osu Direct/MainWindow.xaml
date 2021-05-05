@@ -6,11 +6,9 @@
         xmlns:local="clr-namespace:Osu_Direct" 
         xmlns:tb="http://www.hardcodet.net/taskbar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="650" StateChanged="Window_StateChanged" KeyDown="Window_KeyDown" Loaded="Window_Loaded" >
+        Title="MainWindow" Height="135" Width="225" StateChanged="Window_StateChanged" Loaded="Window_Loaded" >
     <Grid>
-        <Button Content="Запустить" HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Height="58" Width="222" Click="Button_Click"/>
         <tb:TaskbarIcon Visibility="Visible" TrayLeftMouseDown="TaskbarIcon_TrayLeftMouseDown" Margin="0,404,524,0"/>
-        <TextBox x:Name="TextBox" HorizontalAlignment="Center" Margin="0,118,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" Height="83"/>
-        <CheckBox x:Name="AutoStart" Content="Запускать вместе с Windows?" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Height="17" Width="185" ClickMode="Release" Checked="AutoStart_Checked" Unchecked="AutoStart_Unchecked"/>
+        <CheckBox x:Name="AutoStart" Content="Запускать вместе с Windows?" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Height="17" Width="185" ClickMode="Release" Checked="AutoStart_Checked" Unchecked="AutoStart_Unchecked"/>
     </Grid>
 </Window> 

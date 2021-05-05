@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJGGOz1tPOid7uu1h1mMv3TNrlxZ7rYdEKkjiuO7Og4YhmYhYn1MyqsQMCBHnITzeKa70dUyqNPV3inHJ2e1vg==",
+  "dgSpecHash": "vfiVZGs+Q8jJj/dZ4Btp+tgvXYJzFdHEVkQ1nU3s1cRNgJxsgCBaPx6RytncNBHDGipQmkBvzvUBbb4bLX9KeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Osu Direct\\Osu Direct\\Osu Direct.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

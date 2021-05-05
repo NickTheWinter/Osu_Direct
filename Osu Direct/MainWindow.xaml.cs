@@ -17,34 +17,6 @@ namespace Osu_Direct
             
         }
 
-        //DispatcherTimer timer = new DispatcherTimer();
-
-        //private void Application_Startup(object sender, KeyEventArgs e)
-        //{
-        //foreach (Process clsProcess in Process.GetProcesses())
-        //{
-        //    if (clsProcess.ProcessName.Contains("Osu"))
-        //    {
-        //if (e.KeyboardDevice.Modifiers == ModifierKeys.Control && e.Key == Key.D)
-        //{
-
-
-
-        //}
-
-
-        //private void OnTimedEvent(object sender, EventArgs e)
-        //{
-        //    if (Convert.ToString(Process.GetCurrentProcess()).Contains("osu!"))
-        //    {
-        //        if (Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.D))
-        //        {
-        //            Web_Browser web_browser = new Web_Browser();
-        //            web_browser.Show();
-
-        //        }
-        //    }
-        //}
 
         WindowState prevState;
         private void Window_StateChanged(object sender, EventArgs e)
@@ -63,48 +35,6 @@ namespace Osu_Direct
         }
 
 
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //Hide();
-            //TextBox.Text = Convert.ToString(Application.Current.Windows.Count);
-
-            
-        }
-
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            //foreach (Process clsProcess in Process.GetProcesses())
-            //{
-                //if (clsProcess.ProcessName.Contains("osu"))
-                //{
-                //if (Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.D))
-                //{
-                //    Web_Browser web_browser = new Web_Browser();
-                //    web_browser.Show();
-
-                //}
-                //}
-
-                //if(Convert.ToString(Process.GetCurrentProcess()) == "osu!")
-                //{
-                //    if (Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.D))
-                //    {
-                //        Web_Browser web_browser = new Web_Browser();
-                //        web_browser.Show();
-
-                //    }
-                //}
-
-
-            //}
-        }
-
-        //private void Button_Click_1(object sender, RoutedEventArgs e)
-        //{
-        //    timer.Interval = new TimeSpan(0, 0, 0, 0, 1);
-        //    timer.Tick += new EventHandler(OnTimedEvent);
-        //}
 
         [DllImport("user32.dll")]
         private static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
