@@ -11,7 +11,6 @@
         <DockPanel DockPanel.Dock="Top">
             <Button x:Name="Back" DockPanel.Dock="Left" Click="Back_Click" Content="Back" Width="65" FontSize="16" FontWeight="Bold"/>
             <Button x:Name="Forward" DockPanel.Dock="Left" Click="Forward_Click" Content="Forward" Width="74" RenderTransformOrigin="0.957,0.57" FontSize="16" FontWeight="Bold"/>
-            <Button x:Name="Upload_Beatmaps" DockPanel.Dock="Left" Click="Upload_Beatmaps_Click" Content="Upload Beatmaps" FontSize="16" FontWeight="Bold"/>
             <TextBox x:Name = "addressBar" Height="40" IsEnabled="True" Text="https://osu.ppy.sh/beatmapsets" IsReadOnly="True" FontSize="24"/>
 
         </DockPanel>

@@ -58,25 +58,11 @@ namespace Osu_Direct
             addressBar.Text = Convert.ToString(webView.CoreWebView2.Source);
         }
 
-        private void Upload_Beatmaps_Click(object sender, RoutedEventArgs e)
-        {
-            string[] files = Directory.GetFiles(@"C:\Users\Admin\Downloads", "*.osz");
-            ProcessStartInfo psStartInfo = new ProcessStartInfo(@"C:\Users\Admin\AppData\Local\osu!\osu!.exe");
-            psStartInfo.WorkingDirectory = @"C:\Users\Admin\AppData\Local\osu!\";
-            foreach (string i in files)
-            {
-                if (File.Exists(i))
-                {
-                    Process.Start(psStartInfo.FileName, i);
-                }
-            }
-        }
-
         private void OnTimedEvent(object sender, EventArgs e)
         {
-            string[] files = Directory.GetFiles(@"C:\Users\Admin\Downloads", "*.osz");
-            ProcessStartInfo psStartInfo = new ProcessStartInfo(@"C:\Users\Admin\AppData\Local\osu!\osu!.exe");
-            psStartInfo.WorkingDirectory = @"C:\Users\Admin\AppData\Local\osu!\";
+            string[] files = Directory.GetFiles(@"C:\Users\Admin\Downloads", "*.osz");//Input your downloading directory
+            ProcessStartInfo psStartInfo = new ProcessStartInfo(@"C:\Users\Admin\AppData\Local\osu!\osu!.exe");//Input directory of Osu! with osu!.exe
+            psStartInfo.WorkingDirectory = @"C:\Users\Admin\AppData\Local\osu!\";//Input directory of Osu!
             foreach (string i in files)
             {
                 if (File.Exists(i))
