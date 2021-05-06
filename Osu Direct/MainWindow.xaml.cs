@@ -117,10 +117,10 @@ namespace Osu_Direct
         private void AutoStart_Checked(object sender, RoutedEventArgs e)
         {
             if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", @"Osu Direct 
-                                                 Osu Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
+                                                 Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
             {
                 Microsoft.Win32.RegistryKey Key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", true);
-                Key.SetValue("Osu Direct", @"Osu Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe");
+                Key.SetValue("Osu Direct", @"Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe");
                 Key.Close();
             }
         }
@@ -128,7 +128,7 @@ namespace Osu_Direct
         private void AutoStart_Unchecked(object sender, RoutedEventArgs e)
         {
             if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", @"Osu Direct 
-                                                 Osu Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
+                                                 Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
             {
                 Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
                 key.DeleteValue("Osu Direct", false);
@@ -139,7 +139,7 @@ namespace Osu_Direct
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", @"Osu Direct 
-                                                 Osu Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
+                                                 Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
             {
                 AutoStart.IsChecked = true;
             }
