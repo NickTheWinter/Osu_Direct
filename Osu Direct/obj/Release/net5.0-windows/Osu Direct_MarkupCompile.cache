@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\obj\Release\net5.0-windows\
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Release\net5.0-windows\
 Osu_Direct
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\App.xaml
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\App.xaml
 2-1276293781
-1287825693
+1138300126
 3-1860333106
-200473247650
+20038586444
 MainWindow.xaml;Web_Browser.xaml;
 
-False
+True
 

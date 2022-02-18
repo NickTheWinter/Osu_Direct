@@ -68,3 +68,38 @@ C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu D
 C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\ref\Osu Direct.dll
 C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.pdb
 C:\Users\Admin\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.genruntimeconfig.cache
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.deps.json
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.runtimeconfig.json
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.runtimeconfig.dev.json
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\ref\Osu Direct.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.pdb
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\NotifyIconWpf.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\NHotkey.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\NHotkey.Wpf.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.csproj.AssemblyReference.cache
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Web_Browser.g.cs
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct_Content.g.cs
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct_MarkupCompile.cache
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct_MarkupCompile.lref
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Web_Browser.baml
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.g.resources
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.AssemblyInfoInputs.cache
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.AssemblyInfo.cs
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.csproj.CoreCompileInputs.cache
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.csproj.CopyComplete
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\ref\Osu Direct.dll
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.pdb
+C:\Users\Nikolai\source\repos\Osu_Direct\Osu Direct\obj\Debug\net5.0-windows\Osu Direct.genruntimeconfig.cache

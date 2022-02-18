@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "vfiVZGs+Q8jJj/dZ4Btp+tgvXYJzFdHEVkQ1nU3s1cRNgJxsgCBaPx6RytncNBHDGipQmkBvzvUBbb4bLX9KeA==",
+  "dgSpecHash": "GIVNwJRRA1lbzfebYla5x7ZMs2LZMfhOCfo1b6iBb2p9hVO7ULL4n1x8DG2XMKis8LkVMOiQfIwh9ekrFBN6wQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
+  "projectFilePath": "C:\\Users\\Nikolai\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.web.webview2\\1.0.818.41\\microsoft.web.webview2.1.0.818.41.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\nhotkey.wpf\\2.1.0\\nhotkey.wpf.2.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+    "C:\\Users\\Nikolai\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.web.webview2\\1.0.818.41\\microsoft.web.webview2.1.0.818.41.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\nhotkey.wpf\\2.1.0\\nhotkey.wpf.2.1.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -60,9 +60,9 @@ namespace Osu_Direct
 
         private void OnTimedEvent(object sender, EventArgs e)
         {
-            string[] files = Directory.GetFiles(@"C:\Users\Admin\Downloads", "*.osz");//Input your downloading directory
-            ProcessStartInfo psStartInfo = new ProcessStartInfo(@"C:\Users\Admin\AppData\Local\osu!\osu!.exe");//Input directory of Osu! with osu!.exe
-            psStartInfo.WorkingDirectory = @"C:\Users\Admin\AppData\Local\osu!\";//Input directory of Osu!
+            string[] files = Directory.GetFiles(@$"C:\Users\{Environment.UserName}\Downloads", "*.osz");//Input your downloading directory
+            ProcessStartInfo psStartInfo = new ProcessStartInfo(@$"C:\Users\{Environment.UserName}\AppData\Local\osu!\osu!.exe");//Input directory of Osu! with osu!.exe
+            psStartInfo.WorkingDirectory = @$"C:\Users\{Environment.UserName}\AppData\Local\osu!\";//Input directory of Osu!
             foreach (string i in files)
             {
                 if (File.Exists(i))
