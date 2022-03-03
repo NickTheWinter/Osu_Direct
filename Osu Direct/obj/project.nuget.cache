@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "GIVNwJRRA1lbzfebYla5x7ZMs2LZMfhOCfo1b6iBb2p9hVO7ULL4n1x8DG2XMKis8LkVMOiQfIwh9ekrFBN6wQ==",
+  "dgSpecHash": "0vHD0yuqguUg1RgWiA53JWJvvW0B4uNGFyA08O2SVwY6dHVOV74cfRYILA6NOkWMbSecJlihOfgbX5CqohkTgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nikolai\\source\\repos\\Osu_Direct\\Osu Direct\\Osu Direct.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nikolai\\.nuget\\packages\\docker.dotnet\\3.125.5\\docker.dotnet.3.125.5.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\hardcodet.wpf.taskbarnotification.core\\2.0.0\\hardcodet.wpf.taskbarnotification.core.2.0.0.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.web.webview2\\1.0.818.41\\microsoft.web.webview2.1.0.818.41.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\nhotkey\\2.1.0\\nhotkey.2.1.0.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\nhotkey.wpf\\2.1.0\\nhotkey.wpf.2.1.0.nupkg.sha512",
+    "C:\\Users\\Nikolai\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Nikolai\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
-    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
-    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Nikolai\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Nikolai\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
