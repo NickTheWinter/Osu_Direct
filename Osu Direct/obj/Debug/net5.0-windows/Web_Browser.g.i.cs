@@ -87,7 +87,7 @@ namespace Osu_Direct {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Osu Direct;V1.0.0.0;component/web_browser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Osu Direct;component/web_browser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Web_Browser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

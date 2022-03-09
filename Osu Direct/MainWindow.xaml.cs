@@ -79,26 +79,29 @@ namespace Osu_Direct
                         case HOTKEY_ID:
                             int vkey = (((int)lParam >> 16) & 0xFFFF);
                             Process[] proclist = Process.GetProcessesByName("osu!");
-                            foreach(Process proc in proclist)
+                            bool procExist = false;
+                            try
                             {
-                                
-                                if (vkey == VK_D && web_browser.IsLoaded == false && Convert.ToString(proc).Contains("osu!"))
-                                {
-                                    
-                                    web_browser.Show();
-                                }
-                                if (vkey == VK_D && web_browser.IsLoaded == true && Convert.ToString(proc).Contains("osu!"))
-                                {
-
-                                    web_browser.Activate();
-                                }
-                                if(vkey == VK_D && web_browser.IsVisible == false && Convert.ToString(proc).Contains("osu!"))
-                                {
-                                    web_browser.Visibility = Visibility.Visible;
-                                }
-                                handled = true;
-                                
+                                procExist = Process.GetProcessesByName("osu!").GetValue(0).ToString().Contains("osu!");
                             }
+                            catch (Exception)
+                            {
+
+                                MessageBox.Show("Запустите приложение osu!");
+                            }
+                            
+                            if (vkey == VK_D && web_browser.IsLoaded == false && procExist)
+                            {
+
+                                web_browser.Show();
+                                web_browser.Activate();
+                            }
+
+                            if (vkey == VK_D && web_browser.IsVisible == false && procExist)
+                            {
+                                web_browser.Visibility = Visibility.Visible;
+                            }
+                            handled = true;
                             break;
 
                     }
@@ -119,7 +122,7 @@ namespace Osu_Direct
             if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", @"Osu Direct 
                                                  Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
             {
-                Microsoft.Win32.RegistryKey Key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", true);
+                RegistryKey Key = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", true);
                 Key.SetValue("Osu Direct", @"Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe");
                 Key.Close();
             }
@@ -130,7 +133,7 @@ namespace Osu_Direct
             if (Registry.GetValue("HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\", @"Osu Direct 
                                                  Osu_Direct\Osu Direct\bin\Debug\net5.0-windows\Osu Direct.exe", null) == null)
             {
-                Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                RegistryKey key = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
                 key.DeleteValue("Osu Direct", false);
                 key.Close();
             }
